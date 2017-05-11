@@ -1,5 +1,9 @@
 package encoder
 
-func encode(fileContents *string) {
+import (
+	"encoding/base64"
+)
 
+func Encode(fileContents []byte) string {
+	return base64.StdEncoding.EncodeToString(fileContents)
 }

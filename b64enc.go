@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"./encoder/encoder"
+	"github.com/c0nstantx/base64encdec/encoder"
 )
 
 const ERROR_FILE_NOT_DEFINED = 1
@@ -40,5 +40,7 @@ func main() {
 		os.Exit(ERROR_UNKNOWN)
 	}
 
-	encoded := encoder.encode(data)
+	encoded := encoder.Encode(data)
+
+	fmt.Println(encoded)
 }
