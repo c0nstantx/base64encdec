@@ -23,16 +23,16 @@ base64encdec [encode|decode] /path/to/file
 ## Examples
 
 ```bash
-base64encdec encode /path/to/file								Print to stdout	(encode)
+base64encdec encode /path/to/file                            Print to stdout (encode)
 ```
 ```bash
-base64encdec encode /path/to/file > /path/to/encoded/file		Save to file	(encode)
+base64encdec encode /path/to/file > /path/to/encoded/file    Save to file (encode)
 ```
 ```bash
-base64encdec decode /path/to/file								Print to stdout	(decode)
+base64encdec decode /path/to/file                            Print to stdout (decode)
 ```
 ```bash
-base64encdec decode /path/to/file > /path/to/decoded/file		Save to file	(decode)
+base64encdec decode /path/to/file > /path/to/decoded/file    Save to file (decode)
 ```
 
 
