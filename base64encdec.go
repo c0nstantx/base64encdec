@@ -44,5 +44,5 @@ func main() {
 }
 
 func printHelp() {
-	fmt.Fprintln(os.Stdout, "WELCOME TO base64 enc/decoder\n\nUsage:\nbase64encdec [encode|decode] file\t\t\t\t\tEncode/Decode files\nbase64encdec help\t\t\t\t\t\t\tPrint this help file\n\nExamples:\nbase64encdec encode /path/to/file\t\t\t\t\tPrint to stdout\t(encode)\nbase64encdec encode /path/to/file > /path/to/encoded/file\t\tSave to file\t(encode)\nbase64encdec decode /path/to/file\t\t\t\t\tPrint to stdout\t(decode)\nbase64encdec decode /path/to/file > /path/to/decoded/file\t\tSave to file\t(decode)\n")
+	fmt.Fprintln(os.Stdout, "WELCOME TO base64 enc/decoder\n\nUsage:\nbase64encdec [encode|decode] file\t\t\t\t\tEncode/Decode files\nbase64encdec help\t\t\t\t\t\t\tPrint this help file\n\nExamples:\nbase64encdec encode /path/to/file\t\t\t\t\tPrint to stdout\t(encode)\nbase64encdec encode /path/to/file > /path/to/encoded/file\t\tSave to file\t(encode)\nbase64encdec decode /path/to/file\t\t\t\t\tPrint to stdout\t(decode)\nbase64encdec decode /path/to/file > /path/to/decoded/file\t\tSave to file\t(decode)\n\nCreated by Konstantinos Christofilos (http://github.com/c0nstantx)")
 }
